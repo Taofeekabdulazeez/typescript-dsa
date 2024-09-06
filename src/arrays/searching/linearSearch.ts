@@ -1,6 +1,6 @@
-function linearSearch(numbers: number[], value: number) {
-  for (let i = 0; i < numbers.length; i++) {
-    if (numbers[i] === value) return i;
+function linearSearch<T>(arr: T[], value: T): number {
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] === value) return i;
   }
 
   return -1;
