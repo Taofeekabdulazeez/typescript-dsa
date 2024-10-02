@@ -1,11 +1,9 @@
 import { binarySearch } from "./arrays/searching/binarySearch";
-import { linearSearch } from "./arrays/searching/linearSearch";
 import { bubbleSort } from "./arrays/sorting/bubbleSort";
+import { insertionSort } from "./arrays/sorting/insertionSort";
 import { selectionSort } from "./arrays/sorting/selectionSort";
 
-// console.log(linearSearch([21, 89, 63, 26, 47, 32], 26));
-// console.log(binarySearch([11, 25, 30, 36, 23, 41, 60], 41));
-// console.log(linearSearch(["a", "e", "i", "o", "u"], "a"));
-
-// console.log(bubbleSort([45, 21, 13, 28, 9, 11]));
-console.log(selectionSort([45, 21, 13, 28, 9, 11]));
+console.log(binarySearch([76, 65, 30, 80, 12, 36], 80));
+console.log("Bubble sort ==>", bubbleSort([76, 65, 30, 80, 12, 36]));
+console.log("Selection sort ==>", selectionSort([76, 65, 30, 80, 12, 36]));
+console.log("Insertion sort ==>", insertionSort([76, 65, 30, 80, 12, 36]));
