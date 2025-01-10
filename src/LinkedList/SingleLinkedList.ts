@@ -32,6 +32,8 @@ export class SingleLinkedList {
     return this;
   }
 
+  shift() {}
+
   pop() {
     if (!this.length) return undefined;
     let current = this.head;
