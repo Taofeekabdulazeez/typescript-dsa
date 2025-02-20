@@ -11,7 +11,7 @@ import { SingleLinkedList } from "./LinkedList/SingleLinkedList";
 
 const list = new SingleLinkedList();
 
-list.push(10).push(20).push(30);
+list.push(10).push(20).push(30).push(90);
 
 console.log(list);
 
